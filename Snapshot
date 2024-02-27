@@ -1,0 +1,17 @@
+
+what is snapshot ? and their use in ec2?
+
+ANSWER
+
+
+Snapshot Definition: A snapshot is essentially a backup of an EBS volume at a specific moment in time. It captures the data stored on the volume, including the operating system, applications, and any other files or configurations.
+
+Use in EC2:
+
+Backup and Disaster Recovery: Snapshots are commonly used for backup and disaster recovery purposes. By creating regular snapshots of your EBS volumes, you can ensure that your data is protected and can be restored in case of accidental deletion, corruption, or other issues.
+
+Volume Migration: Snapshots can be used to migrate EBS volumes between different EC2 instances or availability zones. You can create a snapshot of an existing volume, and then use that snapshot to create a new volume in a different location.
+
+Data Analysis and Mining: Snapshots can be used as a source for data analysis and mining purposes. You can create snapshots of large volumes of data, and then analyze that data using various tools and techniques without affecting the original volume.
+
+Key Point: Snapshots provide a convenient and reliable way to back up and manage your data in EC2. They offer flexibility in terms of data protection, migration, cloning, and analysis, contributing to efficient management of your EC2 resources.
