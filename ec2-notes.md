@@ -1,6 +1,5 @@
-INSTANCE TYPES IN DETAILS WITH THEIR EXAMPLE 
-
-
+1) INSTANCE TYPES IN DETAILS WITH THEIR EXAMPLE
+   ---
  * General purpose instances
 
    General purpose instances provide a balance of compute, memory, and networking resources. These instances are ideal for applications that use these resources in equal proportions, such as web servers and code repositories
@@ -56,10 +55,11 @@ In this scenario, you need EC2 instances that are optimized for memory-intensive
 
 An example of a memory-optimized instance type in EC2 is the "r5.large" instance.
 
-* use of key pair in ec2?
-
+2)  use of key pair in ec2?
+    ---
 ANSWER-
-In Amazon EC2, a key pair is used for secure and authenticated communication with instances
+
+  In Amazon EC2, a key pair is used for secure and authenticated communication with instances
 
 Creating a Pair:
 When you launch an EC2 instance, you create a pair of keys – a public key (the lock) and a private key (the key).
@@ -81,6 +81,30 @@ If you lose the private key, you might lose access to your EC2 instance. So, it'
 
 In simpler terms, the key pair ensures that only you (with the private key) can open the door to your EC2 instance. It's a way of adding a strong layer of security to your virtual server in the cloud.
 
+
+3) Which voliume bydefault attached in ec2?
+   ---
+  When you launch an EC2 instance, it typically comes with a root volume attached by default
+
+4) How many type of volumes are present in your Ec2?
+   ---
+   ANSWER:
+
+  1) Root Volume:
+
+   The root volume is the primary storage device for an EC2 instance. It typically contains the operating system and serves as the main storage for the instance. By 
+   default, the root volume is an Elastic Block Store (EBS) volume, providing persistent block-level storage.
+   
+  2) Additional Volumes:
+
+   In addition to the root volume, you can attach additional EBS volumes to an EC2 instance. These volumes act as separate disks and can be used for various purposes, such 
+   as data storage, database files, or any other application-specific use.
+   
+  3) Instance Store Volumes (Ephemeral Storage):
+     
+   Some EC2 instances come with instance store volumes, also known as ephemeral storage. These volumes are directly attached to the physical host where the EC2 instance 
+   runs. However, they are not persistent, meaning their data is lost if the instance is stopped or terminated. The use of instance store volumes depends on the specific 
+   instance type.
   
 
 
