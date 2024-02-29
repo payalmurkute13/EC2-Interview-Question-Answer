@@ -1,6 +1,12 @@
-what are the benefits of EC2 ?
 
-ANSWER:
+1) In aws how many total regions are available?
+   -
+   ANSWER: 29 REGIONS ARE AVAILABALE IN AWS
+
+
+2) what are the benefits of EC2 ?
+   -
+ ANSWER:
 
  1. Scalability: EC2 allows you to easily scale your computing capacity up or down based on demand. This means you can handle fluctuations in traffic or workload without any hassle.
 
@@ -15,8 +21,8 @@ ANSWER:
  6. Global Reach: With EC2, you can deploy your applications in multiple geographical regions around the world, allowing you to reach a global audience while ensuring low  and high performance.
   
 
-There are three main purchasing options:
-
+3) There are three main purchasing options:
+   -
 ANSWER:
 
 On-Demand Instances: With this option, you pay for compute capacity by the hour or second, depending on the instance type, with no long-term commitments or upfront payments. It's like paying for electricity; you only pay for what you use.
@@ -26,8 +32,8 @@ Reserved Instances: Reserved Instances involve making a one-time payment to rese
 Spot Instances:   in AWS offer spare computing capacity at low prices, but they can be interrupted if demand increases or if others bid higher. They're best for flexible, non-urgent tasks like batch processing or testing.
 
 
-Type of Tennency?
-
+4) Type of Tennency?
+   -
 ANSWER: 
 
 In Amazon Web Services (AWS), EC2 (Elastic Compute Cloud) provides resizable compute capacity in the cloud. The main tenancy types for EC2 instances are:
